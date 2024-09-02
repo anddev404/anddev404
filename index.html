@@ -1,0 +1,350 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio Marcin Wawer</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 10px 0;
+            text-align: center;
+        }
+        header h1 {
+            margin: 0;
+        }
+        .content {
+            margin: 20px 0;
+        }
+        .contact-info a, .project-link a {
+            color: #007BFF;
+            text-decoration: none;
+        }
+        .contact-info p {
+            margin: 10px 0;
+        }
+        .contact-info img {
+            vertical-align: middle;
+            margin-right: 5px;
+        }
+        .projects {
+            margin-top: 40px;
+        }
+        .project-card {
+            background: #fff;
+            border: 1px solid #ddd;
+            border-radius: 10px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+            padding: 20px;
+            margin-bottom: 40px;
+        }
+        .project-card h3 {
+            margin-top: 0;
+        }
+        .project-screenshots {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            margin-top: 20px;
+        }
+    .project-screenshots img {
+    width: 24%;
+    height: auto;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    object-fit: contain; /* Utrzymuje proporcje, wypełniając dostępny obszar */
+}
+        @media (max-width: 768px) {
+            .project-screenshots img {
+                width: 48%; /* Dwa obrazki obok siebie na średnich ekranach */
+            }
+        }
+        @media (max-width: 480px) {
+            .project-screenshots img {
+                width: 100%; /* Jeden obrazek na małych ekranach */
+            }
+        }
+   .skills {
+    margin-top: 40px;
+    background-color: #f0f0f0; /* Jasnoszare tło */
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.skills h2, .skills h3 {
+    color: #333; /* Ciemnoszary tekst */
+}
+
+.skills ul li {
+    background: #0066cc; /* Zmieniono kolor na ciemniejszy niebieski */
+    color: #fff;
+    margin: 5px 0;
+    padding: 10px;
+    border-radius: 5px;
+}
+        .scroll-to-skills {
+            display: block;
+            margin-top: 20px;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Marcin Wawer - Portfolio</h1>
+    </header>
+
+    <div class="container">
+        <section class="content">
+            <h2>O mnie</h2>
+            <a href="https://play.google.com/store/apps/developer?id=anddev404">
+                <img src="https://github.com/anddev404/TechNews/blob/main/images/Google_Play_Store_badge_EN.svg.png?raw=true" alt="Google Play Store Badge" width="150" align="right">
+            </a>
+            <p>Cześć! Nazywam się Marcin i jestem inżynierem oprogramowania specjalizującym się w programowaniu aplikacji na Androida. Pasjonuję się rozwiązywaniem problemów i zawsze znajdę sposób, by sprostać wyzwaniom. Jestem pozytywnie nastawiony i gotowy na nowe możliwości zawodowe. Szukam pracy, w której będę mógł rozwijać swoje umiejętności i tworzyć innowacyjne rozwiązania.</p>
+            <div class="contact-info">
+                <p><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/ec/Circle-icons-mail.svg/1024px-Circle-icons-mail.svg.png" alt="Envelope Icon" width="20"> <strong>Kontakt</strong>: <a href="mailto:wawer.marcin.anddev@gmail.com">wawer.marcin.anddev@gmail.com</a></p>
+                <p>📞 <strong>Telefon</strong>: 508-411-789</p><br>
+                <p>🌐 <strong>Sklep Google Play</strong>: <a href="https://play.google.com/store/apps/developer?id=anddev404">https://play.google.com/store/apps/developer?id=anddev404</a></p>
+                <p>🌐 <strong>Profil LinkedIn</strong>: <a href="https://www.linkedin.com/in/marcin-wawer-anddev">https://www.linkedin.com/in/marcin-wawer-anddev</a></p>
+                <p>🌐 <strong>Github</strong>: <a href="https://github.com/anddev404">https://github.com/anddev404</a></p>
+            </div>
+            <a href="#technologies" class="scroll-to-skills">⬇️ Przewiń do sekcji: Moje umiejętności i znajomość technologii</a>
+        </section>
+
+        <section class="projects">
+            <h2>Portfolio</h2>
+            <div class="project-screenshots">
+                <img src="https://github.com/anddev404/anddev404/blob/main/gifs/aim_trainer_log_in.gif?raw=true" alt="Aim Trainer - Logowanie">
+                <img src="https://github.com/anddev404/anddev404/blob/main/gifs/aim_trainer_game.gif?raw=true" alt="Aim Trainer - Gra">
+                <img src="https://github.com/anddev404/anddev404/blob/main/gifs/habits.gif?raw=true" alt="Habits">
+                <img src="https://github.com/anddev404/anddev404/blob/main/gifs/tech_news.gif?raw=true" alt="Tech News">
+                <img src="https://github.com/anddev404/anddev404/blob/main/gifs/calculator.gif?raw=true" alt="Kalkulator">
+                <img src="https://github.com/anddev404/anddev404/blob/main/gifs/movie_guide/movie_guide_movie.gif?raw=true" alt="Movie Guide - Filmy">
+                <img src="https://github.com/anddev404/anddev404/blob/main/gifs/movie_guide/movie_guide_searching.gif?raw=true" alt="Movie Guide - Wyszukiwanie">
+                <img src="https://github.com/anddev404/anddev404/blob/main/gifs/movie_guide/movie_guide_views.gif?raw=true" alt="Movie Guide - Widoki">
+            </div>
+        </section>
+
+        <section class="projects">
+            <h2>Aplikacje:</h2>
+
+            <div class="project-card">
+                <h3>Aim Trainer</h3>
+                <a href="https://github.com/anddev404/AimTrainer">
+                    <img src="https://github.com/anddev404/AimTrainer/blob/main/screenshots/icon_aim_trainer.png?raw=true" alt="Aim Trainer Icon" width="80" align="right">
+                </a>
+                <p>Gra napisana w <strong>Kotlinie</strong>, korzystająca z bazy danych <strong>Firebase</strong>, z funkcjonalnością <strong>logowania i rejestracji</strong> użytkowników. W projekcie wykorzystałem wzorzec <strong>MVVM, Coroutines, Flow, Navigation oraz Hilt</strong>. Szczególny nacisk położyłem na interfejs graficzny stworzony w <strong>Jetpack Compose</strong> oraz zastosowanie <strong>Clean Architecture i Use Case</strong>. Formularze zostały poddane <strong>walidacji</strong> z odpowiednim <strong>zwracaniem błędów</strong>.</p>
+
+    <p>
+        <strong>Linki:</strong><br>
+        <a href="https://github.com/anddev404/AimTrainer">Github</a> | 
+        <a href="https://play.google.com/store/apps/details?id=com.anddev404.aimtrainer">Google Play</a>
+  
+    </p>
+
+                <div class="project-screenshots">
+                    <img src="https://github.com/anddev404/AimTrainer/blob/main/screenshots/home_portrait.jpg?raw=true" alt="Home Screenshot">
+                    <img src="https://github.com/anddev404/AimTrainer/blob/main/screenshots/game_portrait.jpg?raw=true" alt="Game Screenshot">
+                    <img src="https://github.com/anddev404/AimTrainer/blob/main/screenshots/lose_portrait.jpg?raw=true" alt="Lose Screenshot">
+                    <img src="https://github.com/anddev404/AimTrainer/blob/main/screenshots/login_portrait.jpg?raw=true" alt="Login Screenshot">
+                </div>
+            </div>
+
+
+
+
+
+
+            <div class="project-card">
+                <h3>Habits</h3>
+                <a href="https://github.com/anddev404/Habits">
+
+                    <img src="https://github.com/anddev404/Habits/blob/main/screenshots/icon_habit.png?raw=true" alt="Habits Icon" width="80" align="right">
+                </a>
+
+                <p>Aplikacja do zarządzania nawykami. Technologie takie same jak w powyższym projekcie, z tą różnicą, że wykorzystuje bibliotekę <strong>Room</strong> do dostępu do lokalnej <strong>bazy danych SQLite</strong>.</p>
+
+
+    <p>
+        <strong>Linki:</strong><br>
+        <a href="https://github.com/anddev404/Habits">Github</a> | 
+        <a href="https://play.google.com/store/apps/details?id=com.anddev404">Google Play</a>
+  
+    </p>
+
+<p><strong>Zrzuty ekranu:</strong></p>
+                <div class="project-screenshots">
+                    <img src="https://github.com/anddev404/Habits/blob/main/screenshots/main_portrait.jpg?raw=true" alt="Main Screen Screenshot">
+                    <img src="https://github.com/anddev404/Habits/blob/main/screenshots/main_menu.jpg?raw=true" alt="Main Menu Screenshot">
+                    <img src="https://github.com/anddev404/Habits/blob/main/screenshots/create.jpg?raw=true" alt="Create Habit Screenshot">
+                    <img src="https://github.com/anddev404/Habits/blob/main/screenshots/create_dialog.jpg?raw=true" alt="Create Habit Dialog Screenshot">
+                </div>
+            </div>
+
+
+
+
+
+
+<div class="project-card">
+    <h3>Movie Guide</h3>
+    <a href="https://github.com/anddev404/MovieGuide">
+
+        <img src="https://github.com/anddev404/MovieGuide/blob/main/images/icon_512%20new.png?raw=true" alt="Movie Guide Icon" width="80" align="right">
+    </a>
+
+    <p>Aplikacja dostarczająca informacji o wszystkim, co związane ze światem filmowym, pobieranych ze <strong>zdalnego serwera</strong>. Jest to rozbudowana aplikacja napisana w <strong>Javie</strong>, składająca się z <strong>wielu aktywności i fragmentów</strong>, z interfejsem użytkownika zrealizowanym przy użyciu <strong>klasycznych widoków XML</strong>.</p>
+
+    <p>
+        <strong>Linki:</strong><br>
+        <a href="https://github.com/anddev404/MovieGuide">GitHub</a> | 
+        <a href="https://play.google.com/store/apps/details?id=com.anddev.movieguide">Google Play</a>
+    </p>
+
+    <p><strong>Zrzuty ekranu:</strong></p>
+    <div class="project-screenshots">
+        <img src="https://github.com/anddev404/MovieGuide/blob/main/screenshots/portrain/movie%20full.jpg?raw=true" alt="Movie Screenshot">
+        <img src="https://github.com/anddev404/MovieGuide/blob/main/screenshots/portrain/actor%20full.jpg?raw=true" alt="Actor Screenshot">
+        <img src="https://github.com/anddev404/MovieGuide/blob/main/screenshots/portrain/nav%20drawer.jpg?raw=true" alt="Navigation Drawer Screenshot">
+        <img src="https://github.com/anddev404/MovieGuide/blob/main/screenshots/portrain/movie%20list%201.jpg?raw=true" alt="Movie List Screenshot">
+    </div>
+</div>
+
+
+
+
+
+<div class="project-card">
+    <h3>Tech News</h3>
+    <a href="https://github.com/anddev404/TechNews">
+        <img src="https://github.com/anddev404/TechNews/blob/main/images/icon.png?raw=true" alt="Tech News Icon" width="80" align="right">
+    </a>
+    <p>Tech News to aplikacja, która prezentuje użytkownikowi najnowsze wiadomości z dziedziny technologii, IT oraz całego świata cyfrowego, łącząc się z <strong>zewnętrznym serwerem</strong> za pomocą <strong>REST API</strong>.</p>
+    <p>Ta prosta aplikacja prezentuje wykorzystanie wzorca architektonicznego <strong>MVVM</strong>, oraz komponentów takich jak: <strong>LiveData, ViewModel, Coroutines oraz Retrofit</strong>. Aplikacja Tech News została w całości napisana w języku <strong>Kotlin</strong> i składa się z niezależnych od siebie, oddzielnie kompilowanych <strong>modułów</strong>.</p>
+
+    <p>
+        <strong>Linki:</strong><br>
+        <a href="https://github.com/anddev404/technews-repository">Repozytorium</a> | 
+        <a href="https://github.com/anddev404/technews-views">Warstwa widoku</a> | 
+
+<a href="https://github.com/anddev404/TechNews">   Github</a>   | 
+        <a href="https://play.google.com/store/apps/details?id=com.anddev404.technews">Google Play</a> 
+        
+
+    </p>
+
+    <p><strong>Zrzuty ekranu:</strong></p>
+    <div class="project-screenshots">
+        <img src="https://github.com/anddev404/TechNews/blob/main/images/tech_news_error_1.3.jpg?raw=true" alt="Tech News Error Screenshot">
+        <img src="https://github.com/anddev404/TechNews/blob/main/images/Portrain_Details.jpg?raw=true" alt="Tech News Details Screenshot">
+        <img src="https://github.com/anddev404/TechNews/blob/main/images/tech_news_list_1.3.jpg?raw=true" alt="Tech News List Screenshot">
+        <img src="https://github.com/anddev404/TechNews/blob/main/images/tech_news_page_1.3.jpg?raw=true" alt="Tech News Page Screenshot">
+    </div>
+</div>
+
+
+
+
+<div class="project-card">
+    <h3>Kalkulator Bmi</h3>
+    <a href="https://github.com/anddev404/Calculator-Bmi">
+        <img src="https://github.com/anddev404/Calculator-Bmi/blob/main/images/new_official_icon.png?raw=true" alt="Kalkulator Bmi Icon" width="80" align="right">
+    </a>
+    <p>Prosta i intuicyjna aplikacja umożliwiająca obliczenie wskaźnika masy ciała (BMI), stworzona <strong>w celu przeprowadzenia testów</strong> i pokazania moich umiejętności w testowaniu aplikacji. Aplikacja zawiera również niestandardowe widoki (<strong>custom views</strong>) oraz wykorzystuje <strong>data binding</strong>.</p>
+
+    <p>
+        <strong>Linki:</strong><br>
+        <a href="https://github.com/anddev404/Calculator-Bmi">GitHub</a> | 
+        <a href="https://play.google.com/store/apps/details?id=com.anddev404.calculatorbmi">Google Play</a>
+    </p>
+
+    <p><strong>Zrzuty ekranu:</strong></p>
+    <div class="project-screenshots">
+        <img src="https://github.com/anddev404/Calculator-Bmi/blob/main/images/portrait/Screenshot_data.png?raw=true" alt="BMI Calculator Data Screenshot">
+        <img src="https://github.com/anddev404/Calculator-Bmi/blob/main/images/portrait/Screenshot_menu_height.jpg?raw=true" alt="BMI Calculator Menu Screenshot" >
+        <img src="https://github.com/anddev404/Calculator-Bmi/blob/main/images/landscape/Screenshot_data.png?raw=true" alt="BMI Calculator Landscape Screenshot" >
+    </div>
+</div>18:37 02.09.2024
+
+
+<div class="project-card">
+    <h3>My Views</h3>
+    <a href="https://github.com/anddev404/MyEmptyViews">
+        <img src="https://github.com/anddev404/MyEmptyViews/blob/main/screenshots/icon_myemptyviews.png?raw=true" alt="My Views Icon" width="80" align="right">
+    </a>
+    <p>Projekt MyEmptyViews zawiera kilka aktywności, które prezentują jedynie widoki, bez logiki biznesowej. W menu głównym znajdują się elementy ImageView, które po wybraniu otwierają odpowiedni widok.</p>
+
+    <p>
+        <strong>Linki:</strong><br>
+ <a href="https://github.com/anddev404/MyEmptyViews">GitHub</a> | 
+        <a href="https://play.google.com/store/apps/details?id=com.anddev404.myemptyviews">Google Play</a>
+       
+    </p>
+
+    <p><strong>Zrzuty ekranu:</strong></p>
+    <div class="project-screenshots" >
+        <img src="https://github.com/anddev404/MyEmptyViews/blob/main/screenshots/screenshot_login_activity.jpg?raw=true" alt="Login Activity Screenshot">
+        <img src="https://github.com/anddev404/MyEmptyViews/blob/main/screenshots/screenshot_basket_activity.jpg?raw=true" alt="Basket Activity Screenshot">
+        <img src="https://github.com/anddev404/MyEmptyViews/blob/main/screenshots/screenshot_calorie_counter_activity.jpg?raw=true" alt="Calorie Counter Activity Screenshot">
+    </div>
+</div>
+
+
+
+
+        </section>
+
+        <section id="technologies" class="skills">
+            <h2>Technologie</h2>
+            <h3>Aktualnie wykorzystywane technologie i umiejętności</h3>
+            <ul>
+                <li>Języki i frameworki: Kotlin</li>
+                <li>Architektura i wzorce: MVVM, Dependency Injection (Dagger Hilt, Koin), Clean Architecture, Use Case, zasady SOLID, wzorce projektowe</li>
+                <li>Zarządzanie stanem: ViewModel, Programowanie reaktywne (Coroutines, Flow, StateFlow, SharedFlow)</li>
+                <li>API i sieci: Retrofit, OkHttp, JSON, REST API, Gson, Firebase</li>
+                <li>Bazy danych: Room Database, SQL, Shared Preferences</li>
+                <li>UI i grafika: Jetpack Compose, Navigation Compose, Coil, Picasso, Glide</li>
+                <li>Zarządzanie zadaniami: WorkManager</li>
+                <li>Testowanie: JUnit, Mockito</li>
+                <li>Budowanie i zarządzanie projektami: Git, GitHub, Gradle, projekty wielomodułowe</li>
+            </ul>
+
+            <h3>W przeszłości wykorzystywane technologie</h3>
+            <ul>
+                <li>Języki i frameworki: Java, Data Binding, ViewBinding</li>
+                <li>Architektura i wzorce: MVP, MVI</li>
+                <li>UI: XML Layouts, Fragmenty, LiveData, RxJava</li>
+            </ul>
+
+            <h3>Miałem także do czynienia z narzędziami i praktykami</h3>
+            <ul>
+                <li>Narzędzia: GitLab, Jira, Confluence, Jenkins, Espresso, Code Review, JitPack, WebView</li>
+                <li>Metodologie: TDD (Test-Driven Development), CI/CD (Continuous Integration / Continuous Delivery)</li>
+            </ul>
+
+            <h3>Obecnie poznaję</h3>
+            <ul>
+                <li>Kotlin Multiplatform (KMP) oraz Kotlin Multiplatform Mobile (KMM),  Realm database</li>
+            </ul>
+
+            <h3>Inne umiejętności</h3>
+            <ul>
+                <li>Posiadam również wiedzę na temat Scrum i Agile.</li>
+            </ul>
+        </section>
+    </div>
+</body>
+</html>
